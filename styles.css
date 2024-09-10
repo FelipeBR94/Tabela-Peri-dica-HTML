@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  
+  .tabela-periodica {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  
+  .tabela-periodica td {
+    width: 60px;
+    height: 80px;
+    border: 1px solid #ccc;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px;
+    position: relative;
+  }
+  
+  
+  .elemento {
+    background-color: #fff;
+    border-radius: 0px;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .numero {
+    font-size: 0.8em;
+    color: #666;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+  }
+  
+  
+  .simbolo {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  
+  .nome {
+    font-size: 0.8em;
+    color: #333;
+    margin-top: 5px;
+  }
+  
+  
+  /* Estilos específicos para os elementos */
+  /* .h {
+    background-color: #d8f8ff;
+  } */
+  .verdeclaro{
+    background-color: #cce904;
+  }
+  .laranjaescuro{
+    background-color: #fdc600;
+  }
+  .amarelo{
+    background-color: #fbef05;
+  }
+  .laranjaclaro{
+    background-color: #fece9b;
+  }
+  .verdeescuro{
+    background-color: #60b406;
+  }
+  .azulclaro{
+    background-color: #29e5c3;
+  }
+  .azulescuro{
+    background-color: #77d1fb;
+  }
+  .lilas{
+    background-color: #c8cbf7;
+  }
+  .vermelho{
+    background-color: #fb9e94;
+  }
+  .rosa{
+    background-color: #ebc2d2;
+  }
+  
